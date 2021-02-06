@@ -17,5 +17,5 @@ COPY --chown=node:node . .
 
 EXPOSE 3007
 
-CMD ["node", "subscribe.js"]
+CMD ["node", "server.js"]
 
